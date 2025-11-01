@@ -1,5 +1,5 @@
 FROM eclipse-temurin:21-jre-alpine
 WORKDIR /app
-COPY target/demo-app-1.0.jar app.jar
+COPY target/DemoApp-1.0.jar app.jar
 EXPOSE 8080
 CMD ["java", "-jar", "app.jar"]
